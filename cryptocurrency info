@@ -1,0 +1,18 @@
+install.packages('cryptomarketcapr') #install 
+install.packages(c('ggplot2','tidyverse','magrittr'))
+library(cryptomarketcapr)
+libary(ggplot2)
+library(tidyverse)
+library(magrittr)
+
+key <- 'c5418c64-c8ff-4cca-9051-54e3aaf5f989'
+coinmarketcapr::setup(key)
+crytocurrency_information <- get_crypto_listings()
+marketcapinfo <- get_global_marketcap()
+cryptocurrency_information %>%
+  head(10)%>%
+  select(c('name', 'USD_price') -> top10_cryptocurrencies
+
+top_10cryptocurrencies %>%
+  ggplot() + geom_col(aes(x = cryptocurrency, y = Price(USD))
+  
