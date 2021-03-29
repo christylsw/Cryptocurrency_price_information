@@ -17,4 +17,4 @@ cryptocurrency_information %>%
   select(c('name', 'USD_price') -> top10_cryptocurrencies # Get name and price of top 10 cryptocurrencies
          
 top_10cryptocurrencies %>%
-  ggplot() + geom_col(aes(x = cryptocurrency, y = Price(USD))
+  ggplot() + geom_col(aes(x = name, y = USD_price)
