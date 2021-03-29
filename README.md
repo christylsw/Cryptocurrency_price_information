@@ -2,4 +2,4 @@
 
 R code for installation of cryptomarketcapr package, get cryptocurrency information and simple plotting of top10 cryptocurrencies against price in USD
 
-Note: The documentation of the package is available on https://coinmarketcap.com
+Note: The documentation of the package is available on https://coinmarketcap.com/api/documentation/v1/#
